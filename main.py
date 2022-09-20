@@ -79,10 +79,6 @@ if use_nouse == 'y':
     print("victims cellphone number : " + " " + number + " " + "\n")
 
 use_nouse = str(input('\n[?] is this information correct? [y/N] : '))
-if use_nouse == 'y':
-    with open('readme.txt', 'w') as f:
-    f.write('Create a new text file!')
-f.close()
 if use_nouse == 'N':
     first_name = input("\n\033[36m[*]  First Name: ")
     last_name = input("\n\033[36m[*] Last Name: ")
